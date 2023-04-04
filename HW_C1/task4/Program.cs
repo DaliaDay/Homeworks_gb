@@ -7,7 +7,7 @@ Console.WriteLine("Hello! Please Enter a number to represent all the even number
 int num = Convert.ToInt32(Console.ReadLine());
 int even_num = 1;
 while(even_num < num){
-    Console.WriteLine($"-> {even_num+1}" );
+    Console.WriteLine($"-> {even_num+1}");
     even_num += 2;
 }
-// Console.WriteLine($"The collection of even numbers are:  {even_num}");
+
