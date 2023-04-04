@@ -8,18 +8,16 @@
 
 // 23432 -> да
 
-
- 
-
-
  Console.WriteLine("Hello!  This is a program to check whether the given 5 digit number is polindrome or not");
  Console.WriteLine(" Please enter a number:  ");
  int num = Convert.ToInt32(Console.ReadLine());
  int pol = num;
  int polindrome = 0;
  int result;
+
  
-if(num > 9999 && num < 100000)
+
+    if(num > 9999 && num < 100000)
 {
     
     while (num > 0){
@@ -37,3 +35,4 @@ if(num > 9999 && num < 100000)
 }
 else
 Console.WriteLine("Please enter 5 digit number only");
+
