@@ -32,6 +32,7 @@ for(int index = 0; index < array.Length; index++)
     }  
 }
 int difference  = max - min;
+Console.WriteLine("This is a program that finds the Minimum and Maximum elements of an array and finds their difference. ");
  Console.WriteLine($"Maximum Element -> {max}");
  Console.WriteLine($"Minimum Element -> {min}");
  Console.WriteLine($"Difference between Max and Min is -> {difference}");

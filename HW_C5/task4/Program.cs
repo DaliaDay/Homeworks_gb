@@ -17,7 +17,8 @@
 int[] array = new int[7];
 int index, min;
 int sum = 0;
-
+int median;
+int median2;
 int max = array[0];
 
 void FillArray(int[] array)
@@ -71,11 +72,13 @@ Console.WriteLine($"Median -> {median}");
 }
 else{
     int size = array.Length/2;
-int median = array[size];
-int median2 = array[size - 1];
+median = array[size];
+median2 = array[size - 1];
 Console.WriteLine($"Median -> {median2}, {median}");
 }
+
 }
+
 
 
 
@@ -84,3 +87,5 @@ PrintArray(array);
 DifferenceMinMax(array);
 Console.WriteLine($"Arithmetic mean -> {ArithmeticMean(array)}");
 Median(array);
+int[,] Array = new int[,]{ {min, max}};
+Console.WriteLine(Array);

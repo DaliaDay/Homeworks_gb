@@ -30,7 +30,6 @@ void Sum(int[] array)
     }
    Console.Write($" -> {sum}");
 }
-
 FillArray(array);
 PrintArray(array);
 Sum(array);

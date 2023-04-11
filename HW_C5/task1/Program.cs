@@ -15,7 +15,7 @@ void PrintArray(int[] array)
 {
     foreach (int item in array)
         Console.Write($"{item} ");
-    Console.WriteLine();
+    
 }
 
 int CountEvenNumber(int[] array)
@@ -30,7 +30,7 @@ int CountEvenNumber(int[] array)
     }
     return count;
 }
-
+Console.WriteLine("Hello! This is a program that counts how many even 3 digits number in he array.");
 FillArray(array);
 PrintArray(array);
-Console.Write(CountEvenNumber(array));
+Console.Write($" -> {CountEvenNumber(array)} even numbers");
